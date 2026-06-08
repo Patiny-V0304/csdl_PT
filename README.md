@@ -55,6 +55,12 @@ Bản đặc tả hợp đồng dữ liệu (Schema) và file Python được bi
 - Python 3.8+
 - Các thư viện chuẩn: `json`, `xml`, `sqlite3`, `time`, `os` (không cần cài thêm)
 
+### Cài đặt thư viện hỗ trợ
+Để chạy chương trình mô phỏng và tự động sinh biểu đồ phân tích thực nghiệm, máy tính của bạn cần cài đặt các thư viện Python:
+```bash
+pip install matplotlib numpy
+```
+
 ### Cài đặt Protocol Buffers
 
 ```bash
