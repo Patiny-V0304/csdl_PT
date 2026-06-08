@@ -27,6 +27,7 @@ Hệ thống hiện thực và đánh giá sự đánh đổi giữa *tính dễ
 ├── sync_schema.proto         # Đặc tả schema Protocol Buffers
 ├── sync_schema_pb2.py        # File Python được biên dịch từ .proto
 ├── site_a_local.db           # Cơ sở dữ liệu SQLite (Site A)
+├── test_failure.py           # Mô phỏng lỗi có thể xảy ra
 ├── storage_payload.json      # Payload JSON (trung chuyển mạng)
 ├── storage_payload.xml       # Payload XML (trung chuyển mạng)
 └── storage_payload.bin       # Payload Binary/Protobuf (trung chuyển mạng)
