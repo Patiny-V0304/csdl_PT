@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+// Định nghĩa cấu trúc cho Nested List
+message HistoryLog {
+  int32 event_id = 1;
+  string status = 2;
+}
+
+// Định nghĩa cấu trúc cho Object chính
+message SyncRecordMsg {
+  string global_oid = 1;
+  int32 record_id = 2;
+  string metadata = 3;
+  float trust_score = 4;
+  repeated HistoryLog history_logs = 5;
+}
+
+// Định nghĩa mảng 1000 đối tượng
+message DatasetMsg {
+  repeated SyncRecordMsg records = 1;
+}
